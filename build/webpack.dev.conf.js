@@ -6,6 +6,7 @@ module.exports = merge(baseConfig, {
   devtool: 'inline-source-map',//开启控制台输出错误信息具体在哪行
   devServer: {
     contentBase: path.resolve(__dirname, '../dist'),
+    port: 9000,
     open: true
   }
 });
