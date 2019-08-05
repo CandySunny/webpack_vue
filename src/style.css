@@ -1,3 +1,6 @@
 body {
-    background: red;
+    background: #f5f5f5;
 }
+.list{display: flex;}
+.list li{flex: 0 0 200px;}
+.img img{width: 100%;height: 100px;}

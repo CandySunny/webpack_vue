@@ -20,6 +20,11 @@ export default new VueRouter({
             name:'bar',
             path:'/bar',
             component:() => import('./view/bar.vue')
+        },
+        {
+            name:'list',
+            path:'/list',
+            component:() => import('./view/list.vue')
         }
     ]
 })
